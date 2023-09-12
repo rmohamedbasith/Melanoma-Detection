@@ -37,11 +37,15 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 
 
 ## Conclusions
-- Linear trend in both training and validation accuracy throughout the training process.
-- As the number of training epochs increases, both training and validation accuracies exhibit consistent improvement. 
-- The training loss is relatively low, indicating that the model is fitting the training data very well, with an accuracy of 89.67%.
-- The validation loss is higher than the training loss, but the validation accuracy is still relatively high (83.69%).
-Overall, these results suggest that the model is performing well and has a good balance between fitting the training data and generalizing to the validation data.
+- Training Performance: The training loss is relatively low at 0.2303, indicating that the model is fitting the training data quite well. This suggests that the model is learning the patterns within the training data with a high degree of accuracy, achieving a training accuracy of 91.19%.
+
+- Validation Performance: While the validation loss is higher than the training loss, which is expected, it remains relatively low at 0.4360. This indicates that the model is performing well on data it hasn't seen during training. The validation accuracy of 87.01% reflects the model's ability to generalize to new, unseen data.
+
+- Generalization: The relatively small gap between the training accuracy (91.19%) and validation accuracy (87.01%) suggests that the model is not overfitting the training data. It demonstrates a good balance between learning from the training data and generalizing to new data.
+
+- Model Capability: These results imply that the model has been well-trained and is proficient in capturing the underlying patterns in the data. It has the potential for practical applications with a high level of accuracy in both training and validation.
+
+Overall, the model appears to be well-trained and exhibits strong performance on both the training and validation datasets, indicating its potential for effective real-world use.
 
 
 ## Technologies Used
@@ -53,4 +57,4 @@ Overall, these results suggest that the model is performing well and has a good 
 - Augmentor==0.2.12
 
 ## Contact
-Created by [@MonikaDadhich] - feel free to contact me!
+Created by [@rmohamedbasith] - feel free to contact me!
